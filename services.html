@@ -112,26 +112,36 @@
 
   <footer class="site-footer">
     <div class="container footer-main">
-      <div class="footer-brand">
+      <div class="footer-brand footer-column">
         <a class="brand" href="index.html" aria-label="Usman Khan — back to home">
           <span class="brand-mark" aria-hidden="true"></span>
           <span class="brand-name"><small></small></span>
         </a>
-        <p>Better websites. Qualified leads.<br>Practical digital growth.</p>
+        <p data-footer-description></p>
+        <div class="social-links footer-social-links" data-footer-social-links></div>
       </div>
-      <div class="footer-links">
-        <div></div>
-        <div></div>
+      <div class="footer-column footer-links">
+        <div class="footer-link-group">
+          <h2 data-footer-quick-title>Quick Links</h2>
+          <nav data-footer-quick-links aria-label="Footer quick links"></nav>
+        </div>
+        <div class="footer-link-group">
+          <h2 data-footer-services-title>Services</h2>
+          <nav data-footer-service-links aria-label="Footer services"></nav>
+        </div>
       </div>
-      <div class="footer-social">
-        <h2 data-footer-social-title></h2>
-        <p data-footer-social-description></p>
-        <div class="social-links"></div>
+      <div class="footer-column footer-contact">
+        <h2>Contact</h2>
+        <div class="footer-contact-list">
+          <a href="#" data-footer-email></a>
+          <a href="#" data-footer-whatsapp>WhatsApp</a>
+          <a href="#" data-footer-website></a>
+        </div>
       </div>
     </div>
     <div class="container footer-bottom">
       <p>© <span data-year>2026</span> Usman Khan. All rights reserved.</p>
-      <p>Website Design <span>·</span> Lead Generation <span>·</span> Digital Growth</p>
+      <p data-footer-bottom></p>
       <a class="back-to-top" href="#services-top">Back to top <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><path d="m7 14 5-5 5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
     </div>
   </footer>
